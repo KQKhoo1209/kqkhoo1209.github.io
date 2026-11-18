@@ -62,15 +62,15 @@ const projects = [
     "repo": "https://github.com/zwzenre/VirtualRealityAssignment",
     "images": [
       [
-        "media/vr-beach.jpg",
+        "media/vr-beach-clean.png",
         "Beach dock and tropical fishing area"
       ],
       [
-        "media/vr-sea.jpg",
-        "Moonlit sea during a fishing session"
+        "media/vr-sea-clean.png",
+        "Reeling in a fish on the moonlit sea"
       ],
       [
-        "media/vr-lake-house.jpg",
+        "media/vr-lake-house-clean.png",
         "Lake House cabin and lakeside path at night"
       ],
       [
