@@ -26,20 +26,7 @@ const projects = [
         "Three themed environments change the look of the course, and an avatar system gives players customisation options."
       ]
     ],
-    "images": [
-      [
-        "media/futuristic-street.png",
-        "Futuristic Street"
-      ],
-      [
-        "media/water-theme-park.png",
-        "Water Theme Park"
-      ],
-      [
-        "media/ancient-dungeon.png",
-        "Ancient Dungeon"
-      ]
-    ]
+    "repo": "https://github.com/KQKhoo1209/Endless_Rollball", "images": [["media/endless-rollball-beach.jpg", "Beach course during a Standard run in Endless Rollball"]]
   },
   {
     "id": "vr-fishing",
@@ -66,7 +53,17 @@ const projects = [
         "Collected fish carry across scenes and appear in an aquarium with movement and feeding interactions."
       ]
     ],
-    "repo": "https://github.com/zwzenre/VirtualRealityAssignment"
+    "repo": "https://github.com/zwzenre/VirtualRealityAssignment",
+    "images": [
+      [
+        "media/vr-fishing-reeling.jpg",
+        "Fishing rod and line during the VR demo"
+      ],
+      [
+        "media/vr-fishing-underwater.jpg",
+        "Reaching toward a shell in the underwater scene"
+      ]
+    ]
   },
   {
     "id": "weather-simulation",
@@ -93,7 +90,17 @@ const projects = [
         "The interface displays temperature, humidity and a countdown. Users can adjust ranges and timing or choose the next state."
       ]
     ],
-    "repo": "https://github.com/zwzenre/ComputerGameTechAssignment"
+    "repo": "https://github.com/zwzenre/ComputerGameTechAssignment",
+    "images": [
+      [
+        "media/weather-rain.jpg",
+        "Rain over the city with live weather controls"
+      ],
+      [
+        "media/weather-storm.jpg",
+        "Storm state with rain and reduced lighting"
+      ]
+    ]
   },
   {
     "id": "interactive-robot",
@@ -119,7 +126,8 @@ const projects = [
         "Keyboard and mouse controls adjust the camera and lighting. Texture options change the robot’s appearance."
       ]
     ],
-    "repo": "https://github.com/KQKhoo1209/GraphicProgramming"
+    "repo": "https://github.com/KQKhoo1209/GraphicProgramming", "images": [["media/opengl-robot.jpg", "Articulated robot rendered in the OpenGL application"]]
   }
 ];
+
 

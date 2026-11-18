@@ -27,6 +27,14 @@ function metadata(project) {
 
 function renderCard(project, grid) {
   const card = add(grid, 'article', '', 'project');
+  if (project.images?.length) {
+    const [src, alt] = project.images[0];
+    const preview = link(card, '', '?project=' + project.id, 'project-preview');
+    const image = add(preview, 'img');
+    image.src = src;
+    image.alt = alt;
+    image.loading = 'lazy';
+  }
   add(card, 'p', metadata(project), 'label');
   add(card, 'h3', project.title);
   add(card, 'p', project.summary);
@@ -46,14 +54,14 @@ function renderCaseStudy(project) {
   if (project.repo) link(study, 'View source on GitHub ↗', project.repo, 'button');
   if (project.images?.length) {
     const gallery = add(study, 'section', '', 'section');
-    add(gallery, 'h2', 'Environment captures');
+    add(gallery, 'h2', 'Gameplay captures');
     const grid = add(gallery, 'div', '', 'gallery');
     for (const [path, caption] of project.images) {
       const figure = add(grid, 'figure');
       const imageLink = link(figure, '', path);
       const image = add(imageLink, 'img');
       image.src = path;
-      image.alt = caption + ' environment in Endless Rollball';
+      image.alt = caption;
       image.loading = 'lazy';
       add(figure, 'figcaption', caption);
     }
