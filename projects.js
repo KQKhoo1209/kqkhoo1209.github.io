@@ -26,7 +26,13 @@ const projects = [
         "Three themed environments change the look of the course, and an avatar system gives players customisation options."
       ]
     ],
-    "repo": "https://github.com/KQKhoo1209/Endless_Rollball", "images": [["media/endless-rollball-beach.jpg", "Beach course during a Standard run in Endless Rollball"]]
+    "repo": "https://github.com/KQKhoo1209/Endless_Rollball",
+    "images": [
+      [
+        "media/endless-rollball-beach.jpg",
+        "Beach course during a Standard run in Endless Rollball"
+      ]
+    ]
   },
   {
     "id": "vr-fishing",
@@ -56,12 +62,20 @@ const projects = [
     "repo": "https://github.com/zwzenre/VirtualRealityAssignment",
     "images": [
       [
-        "media/vr-fishing-reeling.jpg",
-        "Fishing rod and line during the VR demo"
+        "media/vr-beach.jpg",
+        "Beach dock and tropical fishing area"
       ],
       [
-        "media/vr-fishing-underwater.jpg",
-        "Reaching toward a shell in the underwater scene"
+        "media/vr-sea.jpg",
+        "Moonlit sea during a fishing session"
+      ],
+      [
+        "media/vr-lake-house.jpg",
+        "Lake House cabin and lakeside path at night"
+      ],
+      [
+        "media/vr-aquarium.jpg",
+        "Four collected fish swimming near coral in the underwater aquarium"
       ]
     ]
   },
@@ -93,12 +107,28 @@ const projects = [
     "repo": "https://github.com/zwzenre/ComputerGameTechAssignment",
     "images": [
       [
-        "media/weather-rain.jpg",
-        "Rain over the city with live weather controls"
+        "media/weather-state-sunny.jpg",
+        "Sunny state with warm lighting across the city"
       ],
       [
-        "media/weather-storm.jpg",
-        "Storm state with rain and reduced lighting"
+        "media/weather-state-cloudy.jpg",
+        "Cloudy state with overcast lighting"
+      ],
+      [
+        "media/weather-state-rainy.jpg",
+        "Rain particles falling over the city"
+      ],
+      [
+        "media/weather-state-snowy.jpg",
+        "Snowfall and accumulation on streets, roofs and trees"
+      ],
+      [
+        "media/weather-state-foggy.jpg",
+        "Fog reducing visibility over the city"
+      ],
+      [
+        "media/weather-state-stormy.jpg",
+        "Storm state with dark skies and illuminated clouds"
       ]
     ]
   },
@@ -126,8 +156,12 @@ const projects = [
         "Keyboard and mouse controls adjust the camera and lighting. Texture options change the robot’s appearance."
       ]
     ],
-    "repo": "https://github.com/KQKhoo1209/GraphicProgramming", "images": [["media/opengl-robot.jpg", "Articulated robot rendered in the OpenGL application"]]
+    "repo": "https://github.com/KQKhoo1209/GraphicProgramming",
+    "images": [
+      [
+        "media/opengl-robot-front.png",
+        "Front view of the articulated OpenGL robot"
+      ]
+    ]
   }
 ];
-
-

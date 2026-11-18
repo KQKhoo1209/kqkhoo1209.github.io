@@ -83,3 +83,5 @@ footer { border-top: 1px solid var(--line); padding-block: 1.25rem; color: var(-
 .project-preview { display: block; overflow: hidden; border-radius: .4rem; margin-bottom: 1rem; }
 .project-preview img { aspect-ratio: 16 / 9; object-fit: cover; }
 .project:first-child:nth-last-child(4) .project-preview img { max-height: 300px; object-position: center 60%; }
+
+.project-preview[href="?project=interactive-robot"] img { object-fit: contain; background: #494949; }
