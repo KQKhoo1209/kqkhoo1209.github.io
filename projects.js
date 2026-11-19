@@ -29,8 +29,16 @@ const projects = [
     "repo": "https://github.com/KQKhoo1209/Endless_Rollball",
     "images": [
       [
-        "media/endless-rollball-beach.jpg",
-        "Beach course during a Standard run in Endless Rollball"
+        "media/rollball-dungeon.jpg",
+        "Dungeon — a torch-lit passage with stone obstacles and lava ahead"
+      ],
+      [
+        "media/rollball-beach-boardwalk.jpg",
+        "Beach — a boardwalk lined with surfboards and palm trees"
+      ],
+      [
+        "media/rollball-city-street.jpg",
+        "City Street — traffic and obstacles along an urban course"
       ]
     ]
   },
